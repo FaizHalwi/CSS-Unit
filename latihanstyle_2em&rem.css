@@ -1,0 +1,75 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	color: black;
+	text-align: center;
+	background-color: whitesmoke;
+	line-height: 1.6;
+	font-weight: 300;
+	min-height: 2000px;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+}
+
+.Typography{
+	display: flex;
+}
+
+.Typography .col{
+	flex: 1;
+	margin: 0 0.5em;
+	padding: 0 0.5em;
+}
+
+/*em
+/*ukuran akan dikali dua dari font di atas (element parentnya)*/
+/*ia akan mengkalikan ukuran yg pertema kali di temukan*/
+/*.col-em h2{
+	font-size: 2em;
+}
+
+.col-em p{
+	font-size: 1.5em;
+}*/
+
+
+/*rem*/
+/*akan melihat tag html atau root*/
+/*rem tidak akan mengikuti element parentnya*/
+/*.col-rem{
+	font-size: 10px;
+}
+
+.col-rem h2{
+	font-size: 2rem;
+}
+
+.col-rem p{
+	font-size: 1.5rem;
+}*/
+
+
+
+.btn{
+	display: inline-block;
+	background-color: black;
+	font-weight: bold;
+	color: whitesmoke;
+	text-decoration: none;
+	text-transform: uppercase;
+
+	padding: 1em 3em;
+	margin: 0 1.5em;
+}
+
+.btn-sm{
+	font-size: 0.5em;
+}
+
+.btn-lg{
+	font-size: 2em;
+}
+
+

@@ -1,0 +1,20 @@
+ANGLE
+deg = derajat
+rad = radiant
+grad = gradiant
+turn = untuk putaran yang kita inginkan
+v = 3.14
+
+Time
+s = detik
+ms= mili detik
+
+Resolution = biasa di gunakan untuk mencetak
+dpi = dot per  inch -> butuh berapa titik incinya
+dpcm = dot percentimeter ->
+dppx = dot per pixel ->
+
+Length
+1. Absolute
+2. Relative = %, em, rem, ch, vh, vw, vmin, vmax
+
